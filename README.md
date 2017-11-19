@@ -124,7 +124,7 @@ resulting videos are in the `output_videos/` directory.
 ## Results and discussion
 
    Results show out that the algorithm fails in difficult 
-situations like poor light or shining light conditions.The lane lines can disappear in the difficult light conditions.So my alogorithm only can solve the straight lines and fails in the harder_challenge videos.
+situations like poor light or shining light conditions.The lane lines can disappear in the difficult light conditions.My algorithm finished the basic features and can not handle the harder challenge.So my alogorithm only can solve the straight lines and fails in the harder_challenge videos.
 
 
 ## Improvement ideas
