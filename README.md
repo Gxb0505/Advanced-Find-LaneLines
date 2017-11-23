@@ -55,7 +55,7 @@ The former four functions are thresholded functions means red_channel,absolute_s
 `pipeline()` is used to combine the thresholded image results to create the final binary image.Finally, I found out red channel plus saturation channel in HLS color space plus grad_thresh were the best performance.However,there are many 
 different combined ways to get the best results. An example of image, used for line detection, is given below.
 
-###Changes in the combined binary image(after review)
+### Changes in the combined binary image(after review)
 In the `pipeline()`function,I changed my combination method to overcome the challenge of shadow and strong
 shift of lightning.Here is the new former:
 
